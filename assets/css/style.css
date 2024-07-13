@@ -1,0 +1,57 @@
+/* variables css */
+:root {
+  --color-negro: #212529;
+  --color-gris: #707070;
+  --color-invierno: #F8F9FA;
+  --color-blanco: #fff;
+  --color-verde: #28a745;
+}
+
+.letra-negro {
+color: var(--color-negro);
+}
+
+.letra-blanco{
+  color: var(--color-blanco)!important; 
+}
+
+.letra-gris{
+  color: var(--color-gris);
+}
+
+.letra-verde{
+  color: var(--color-verde);
+}
+
+.fondo-verde{
+  background-color: var(--color-verde);
+}
+
+.fondo-blanco{
+  background-color: var(--color-blanco);
+}
+
+/* fuentes */
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* estilos button */
+.navbar-toggler {
+  border: 1px solid var(--color-blanco);
+}
+
